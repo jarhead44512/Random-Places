@@ -1,3 +1,28 @@
+* {
+    margin:0;
+}
+
+html{
+    width: 720;
+    height: 1080;
+    margin: auto 0;
+}
+
+h1{
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+h3{
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+.appSize{
+    margin:0 auto;
+    width: 480px;
+    height: 800px;
+}
 .disabled {
     display: none;
    }
@@ -6,27 +31,63 @@
     display: "";
 }
 
+.margin {
+    margin: 0 auto;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
+.directionFlip{
+    display: flex;
+    flex-direction: column;
+}
 .logo {
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
     width: 100%;
     text-align: center;
-    margin-top: 28%;
     }
 
 .craving {
     text-align: center;
-    margin-top: 10%;
     height: 30px;
-    width: 300px;
+    width: 400px;
     font-size: 1.5rem;
+}
+
+#answer {
+    width: 400px;
+    height: 450px;
+    margin: 20px auto;
+    background-color: burlywood;
+}
+.answerInfo {
+    background-color: rgb(184, 152, 111);
+    height: 25%;
+    width: 100%;
+}
+.answerImages{
+    height: 75%;
+    width: 100%;
+
+}
+
+
+.btnOptions {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #rating {
@@ -35,31 +96,25 @@
 }
 
 #jsBtn {
-    width: 150px;
-    height: 50px;
-    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#reRoll {
-    width: 150px;
-    height: 50px;
-    font-size: 1.5rem;
-}
-
-#bBtn {
-    width: 150px;
-    height: 50px;
-    font-size: 1.5rem;
-}
 
 
 #firstPage {
+    padding: auto 0;
+    width: 480px;
+    height: 800px;
+    background-color: blueviolet;
     text-align: center;
 }
 
 #secondPage {
+    padding: auto 0;
+    width: 480px;
+    height: 800px;
+    background-color: blueviolet;
     text-align: center;
 }

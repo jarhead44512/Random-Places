@@ -18,19 +18,24 @@
         </header>
         <!-- I want to add if uscer clicks text input whole section covers logo when it moves up with mobile keyboard -->
         <section>
+            <h3>Cant decide what to eat?<br>Let us help just hit the order up button.<br>or if you feel like something specific type it below</h3>
             <input type="text" placeholder="What do you feel like?" class="craving" >
             <br>
-            <input id="rating" type="range" value="0.0" min="0.0" max="5.0" step="0.1" oninput="this.nextElementSibling.value = this.value">
-            <output class="outputRange" >0.0</output>           
+            <div class="directionFlip">
+                <input id="rating" type="range" value="0.0" min="0.0" max="5.0" step="0.1" oninput="this.nextElementSibling.value = this.value">
+                <output class="outputRange" >0.0</output>           
+            </div>
             <div>Would you prefer a certain rating?</div>
             <br>
             <!-- I want to change the icon of slider for walk run car -->
-            <div>
+            <div class="directionFlip">
                 <input id="rating" type="range" value="0.0" min="1" max="50" step="1" oninput="this.nextElementSibling.value = this.value">
             
                 <output class="outputRange2">50</output>
                 <div class="km">Choose your distance in Km</div>
             </div>
+            <br>
+            <button id="btnJStyle" class="btn margin">Order Up</button>
             <br>
         </section>
 
@@ -38,16 +43,21 @@
     
     <section id="secondPage" class="disabled">
         <header>
-            Random answer header like "OH you got Japanese sounds Tastey!!"
+            <h1 class="logo"> Random Places </h1>
+            <H1>OH you got SUSHI looks Tasty!!</H1>
         </header>
         <section id="answer">
-            Info box with picture
+            <div class="answerInfo">Box</div>
+            <div class="answerImages">Images</div>
         </section>
         <section>
-            Re-roll && new search
+            <div class="btnOptions">
+                <button id="bBtn" class="btn">Start Again</button>
+                <button id="reRoll" class="btn">Try Again</button>
+                
+            </div>
         </section>
     </section>
-
 
 
 
