@@ -22,8 +22,8 @@
             <input type="text" placeholder="What do you feel like?" class="craving" >
             <br>
             <div class="directionFlip">
-                <input id="rating" type="range" value="0.0" min="0.0" max="5.0" step="0.1" oninput="this.nextElementSibling.value = this.value">
-                <output class="outputRange" >0.0</output>           
+                <input id="rating" type="range" value="0.0" min="1" max="5" step="1" oninput="this.nextElementSibling.value = this.value">
+                <output class="outputRange" >1</output>           
             </div>
             <div>Would you prefer a certain rating?</div>
             <br>
@@ -47,8 +47,43 @@
             <H1>OH you got SUSHI looks Tasty!!</H1>
         </header>
         <section id="answer">
-            <div class="answerInfo">Box</div>
-            <div class="answerImages">Images</div>
+            <div class="answerInfo">
+                <div id="rName" class="rName"><h2>Onigiri Sushi</h2></div>
+                <div id="rRating" class="rRating">5 stars</div>
+                <div id="rPrice">$$---</div>
+                <!-- rAddy clickable link that brings you to directions -->
+                <div id="rAddy">1234 5th Street new york USA 1mj34</div>
+                <div id="rPhone">1-800-666-7777</div>
+            </div>
+            <div class="answerImages">
+                <div class="imgSpecs disabled">
+                    <img class="imgs" src="/images/9861e00c-fb69-4859-a6e1-2b221c531ff5.jpg" alt="">
+                </div>
+                <div class="imgSpecs disabled">
+                    <img class="imgs" src="/images/AburiyaSushi-MapleRidge-BC.jpeg" alt="">
+                </div>
+                <div class="imgSpecs disabled">
+                    <img class="imgs" src="/images/Best-Fried-Sushi-Recipes.jpg" alt="">
+                </div>
+                <div class="imgSpecs disabled">
+                    <img class="imgs" src="/images/o.jpg" alt="">
+                </div>
+                <div class="imgSpecs disabled">
+                    <img class="imgs" src="/images/white-shadow.jpg" alt="">
+                </div>
+
+                    <!-- <ul id="carImg" class="imgCar">
+                        <li class="imgSpecs disabled"><img class="imgs" src="/images/9861e00c-fb69-4859-a6e1-2b221c531ff5.jpg" alt=""></li>
+                        <li class="imgSpecs disabled"><img class="imgs" src="/images/AburiyaSushi-MapleRidge-BC.jpeg" alt=""></li>
+                        <li class="imgSpecs disabled"><img class="imgs" src="/images/Best-Fried-Sushi-Recipes.jpg" alt=""></li>
+                        <li class="imgSpecs disabled"><img class="imgs" src="/images/o.jpg" alt=""></li>
+                        <li class="imgSpecs"><img class="imgs" src="" alt=""></li>
+                    </ul> -->
+                <div class="switchImg">
+                    <a class="prev" onclick="plusIndex(-1)">&#10094;</a>
+                    <a class="next" onclick="plusIndex(1)">&#10095;</a>
+                </div>
+            </div>
         </section>
         <section>
             <div class="btnOptions">

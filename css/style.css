@@ -118,3 +118,41 @@ h3{
     background-color: blueviolet;
     text-align: center;
 }
+
+/* Carousel */
+
+.imgSpecs{
+    list-style: none;
+}
+
+.imgs {
+    width: 400px;
+    height: 337.5px;
+}
+
+.switchImg {
+    width: 400px;
+    height: 337.5px;
+    background-color: brown;
+    display: flex;
+}
+
+.prev, .next{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prev{
+    align-items: center;
+}
+
+.next{
+    align-items: center;
+    justify-content: end;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}

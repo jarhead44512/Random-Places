@@ -20,3 +20,6 @@ bBtn.onclick = () => {
 reRoll.onclick = () => {
     //add results
 }
+
+
+// when I have an img showing if I slide left or right I move ++ or -- in img gallery.
